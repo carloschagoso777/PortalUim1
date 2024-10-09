@@ -1,0 +1,1421 @@
+/*relativo ao card flutuante*/
+.baner{
+    z-index:10;
+    position: fixed;
+    height: 35%;
+    width: 20%;
+    background-color: rgb(202, 202, 202);
+    right: 0;
+    top: 60%;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.baner h1{
+    font-size: 200%;
+    margin-left: 7%;
+    margin-right: 3%;
+    margin-top: 7%;
+    text-decoration:underline;
+    opacity: 1;
+    visibility: visible;
+    
+    
+}
+.baner .acessar{
+    color:white;
+    background-color: rgb(0, 124, 207);
+    margin-left: 35%;
+    margin-top: 15%;
+    opacity: 1;
+    pointer-events: all;
+    border-color: rgba(240, 248, 255, 0);
+    
+    
+
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+.fechar{
+    position: absolute;
+    height: 10% ;
+    width: 10%;
+    background-color: rgba(240, 248, 255, 0);
+    top: 3%;
+    right: 1%;
+    background-image: url("fecharicon.png");
+    background-size: contain;
+    background-repeat:no-repeat ;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+
+/* Relativo ao header*/
+header{
+    height: 15%;
+    width: 100%;
+    background-color:var(--color1);
+    position:fixed ;
+    z-index: 2;
+    
+   
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  .navbar{
+    height: 85%;
+    width: auto;
+    font-size: 115%;
+    font-family: montserrat semibold 600;
+    font-weight: lighter;
+   /* text-shadow: rgba(255, 0, 85, 0.349) 0.0em 0.0em 0.1em;*/
+    position: relative;
+    background-color: var(--color1);
+   
+    
+  }
+
+  .nav-item{
+    
+    left: 5%;
+    
+    position: relative;
+    /*box-shadow: rgb(219, 219, 219) 0.1em 0em 0em;*/
+
+  }
+
+  .nav-link{
+    color:var(--color2);
+    
+    
+  }
+  .nav-link:hover{
+    color: rgb(151, 151, 151);
+  }
+  .logo{
+    height: 15vh;
+    width: 30vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url("logo2023.png");
+    background-position: center;
+   
+    background-size: 30vh 17vh;
+    background-repeat: no-repeat;
+    
+  }
+  @media screen and (max-width:768px) { 
+    .logo{
+        opacity: 0;
+
+    }
+    
+}
+  /*REFERENTE AO CARROSSEL*/
+
+  #carouselExampleRide{
+    height:200%;
+    width: contain; 
+    background-color: var(--color1);
+    margin-bottom: -15%;
+    
+   
+  }
+  .carousel-control-prev{
+    background-color: rgba(240, 248, 255, 0);
+    border-color:rgba(240, 248, 255, 0);
+  }
+  .carousel-control-next{
+    background-color: rgba(240, 248, 255, 0);
+    border-color:rgba(240, 248, 255, 0);
+  }
+  .carousel-item img{
+   height: 100vh;
+   width: auto;
+  }
+
+  /*REFERENTE AS INDENTIDADES TERRITORIAIS*/
+
+ .idterritorio{
+  position: relative;
+  height: 500px;
+  width: auto;
+  justify-content: space-around;
+ 
+  background-color: var(--color1);
+  text-align: center;
+  
+ }
+ .idterritorio #titulo{
+ color: var(--color2);
+ margin-top: 15%;
+ padding-top: 5%;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight:lighter;
+ font-size: 200%;
+ }
+ 
+ .card1{
+  position: relative;
+  border-radius: 0;
+  height: 33%;
+  width: 17%;
+  background-color: blue;
+  left: 5%;
+  top: 15%;
+  display: flex;
+ }
+ .card-text1{
+  position: absolute;
+  -radius: 0;
+  height: 87%;
+  width: 90%;
+  background-color: rgb(238, 255, 0);
+  left: 4.5%;
+  top: 6%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  
+ }
+ .card-text1:hover{
+  opacity: 1 ;
+ }
+
+ .card2{
+  position: relative;
+  border-radius: 0;
+  height: 33%;
+  width: 17%;
+  background-color: rgb(0, 255, 98);
+  left: 22.5%;
+  top: -17.5%;
+ }
+ .card-text2{
+  position: absolute;
+  -radius: 0;
+  height: 87%;
+  width: 90%;
+  background-color: rgb(238, 255, 0);
+  left: 4.5%;
+  top: 6%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  
+ }
+ .card-text2:hover{
+  opacity: 1 ;
+ }
+ .card3{
+  position: relative;
+  border-radius: 0;
+  height: 33%;
+  width: 17%;
+  background-color: rgb(255, 0, 221);
+  left: 40%;
+  top: -50%;
+ }
+ .card-text3{
+  position: absolute;
+  -radius: 0;
+  height: 87%;
+  width: 90%;
+  background-color: rgb(238, 255, 0);
+  left: 4.5%;
+  top: 6%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  
+ }
+ .card-text3:hover{
+  opacity: 1 ;
+ }
+ .card4{
+  position: relative;
+  border-radius: 0;
+  height: 33%;
+  width: 17%;
+  background-color: rgb(0, 225, 255);
+  left: 57.5%;
+  top: -83%;
+ }
+ .card-text4{
+  position: absolute;
+  -radius: 0;
+  height: 22vh;
+  width: 32vh;
+  background-color: rgb(238, 255, 0);
+  left: 4.5%;
+  top: 6%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  
+ }
+ .card-text4:hover{
+  opacity: 1 ;
+ }
+ .card5{
+  position: relative;
+  border-radius: 0;
+  height: 33%;
+  width: 17%;
+  background-color: rgb(0, 225, 255);
+  left: 75%;
+  top: -116%;
+ }
+ .card-text5{
+  position: absolute;
+  -radius: 0;
+  height: 87%;
+  width: 90%;
+  background-color: rgb(238, 255, 0);
+  left: 4.5%;
+  top: 6%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  
+ }
+ .card-text5:hover{
+  opacity: 1 ;
+ }
+
+#titulo2{
+ color:var(--color2);
+ margin-top: -30%;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight:lighter;
+ font-size: 200%;
+}
+@media screen and (max-width:768px){
+    .idterritorio{
+        height: 1000px;
+    }
+    .card1{
+        top: 10%;
+        width: 45%;
+        height: 15%;
+        left: 0;
+    }
+    .card-text1{
+        width: 18vh;
+    }
+    .card2{
+        
+        top: -5%;
+        width: 45%;
+        height: 15%;
+        left: 50%;
+        
+    }
+    .card-text2{
+        width: 18vh;
+    }
+    .card3{
+        top: 0%;
+        width: 45%;
+        height: 15%;
+        left: 50%;}
+    .card-text3{
+        width: 18vh;
+    }
+    .card4{
+        position: relative;
+        top: -15%;
+        left: 0%;
+        width: 45%;
+        height: 15%;
+        
+    }
+    .card-text4{
+        width: 18vh;
+    }
+    .card5{
+        top: -10%;
+        width: 45%;
+        height: 15%;
+        left: 50%;
+    }
+    .card-text5{
+        width: 18vh;
+    }
+}
+
+/*REFERENTE AOS PAINÉIS TEMÁTICOS*/
+
+.pt{
+    height: 1000px;
+    width: auto;
+    background-color: var(--color1);
+    position: relative;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.banner{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: blue;
+    left:5%;
+    top: 10%;
+}
+
+.textobanner{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner:hover{
+    opacity: 1;
+}
+
+.banner2{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: rgb(51, 255, 0);
+    left:27%;
+    top: 10%;
+}
+
+.textobanner2{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner2:hover{
+    opacity: 1;
+}
+
+.banner3{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: rgb(229, 255, 0);
+    left:49%;
+    top: 10%;
+}
+
+.textobanner3{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner3:hover{
+    opacity: 1;
+}
+
+.banner4{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: blue;
+    left:71%;
+    top: 10%;
+}
+
+.textobanner4{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner4:hover{
+    opacity: 1;
+}
+
+.banner5{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: blue;
+    left:5%;
+    top: 50%;
+}
+
+.textobanner5{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner5:hover{
+    opacity: 1;
+}
+
+.banner6{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: rgb(51, 255, 0);
+    left:27%;
+    top: 50%;
+}
+
+.textobanner6{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner6:hover{
+    opacity: 1;
+}
+
+.banner7{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: rgb(229, 255, 0);
+    left:49%;
+    top: 50%;
+}
+
+.textobanner7{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner7:hover{
+    opacity: 1;
+}
+
+.banner8{
+    position: absolute;
+    height: 36%;
+    width: 21.5%;
+    background-color: blue;
+    left:71%;
+    top: 50%;
+}
+
+.textobanner8{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(219, 9, 9);
+    left:10%;
+    top: 10%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.textobanner8:hover{
+    opacity: 1;
+}
+@media screen and (max-width:768px){
+    .pt{height: 1500px;
+    margin-top: -5%;}
+    .banner{
+        
+        height: 30vh;
+        width: 20vh;
+        left: 0vh;
+    }
+    .textobanner{
+    height: 24vh;
+    width: 16vh;
+    }
+    .banner2{
+        height: 30vh;
+        width: 20vh;
+        left: 25vh;
+       
+    }
+    .textobanner2{
+    height: 24vh;
+    width: 16vh;
+    left: 2vh;
+    }
+    .banner3{
+        height: 30vh;
+        width: 20vh;
+        left: 0vh;
+        top: 60vh
+       
+    }
+    .textobanner3{
+    height: 24vh;
+    width: 16vh;
+    left:2vh;
+    }
+    .banner4{
+        height: 30vh;
+        width: 20vh;
+        left: 25vh;
+        top: 60vh
+       
+    }
+    .textobanner4{
+    height: 24vh;
+    width: 16vh;
+    left: 2vh;
+    }
+
+    .banner5{
+        height: 30vh;
+        width: 20vh;
+        left: 0vh;
+        top: 95vh
+       
+    }
+    .textobanner5{
+    height: 24vh;
+    width: 16vh;
+    left:2vh;
+    }
+    .banner6{
+        height: 30vh;
+        width: 20vh;
+        left: 25vh;
+        top: 95vh
+       
+    }
+    .textobanner6{
+    height: 24vh;
+    width: 16vh;
+    left: 2vh;
+    }
+    .banner7{
+        height: 30vh;
+        width: 20vh;
+        left: 0vh;
+        top: 130vh
+       
+    }
+    .textobanner7{
+    height: 24vh;
+    width: 16vh;
+    left:2vh;
+    }
+    .banner8{
+        height: 30vh;
+        width: 20vh;
+        left: 25vh;
+        top: 130vh
+       
+    }
+    .textobanner8{
+    height: 24vh;
+    width: 16vh;
+    left: 2vh;
+    }
+}
+
+/* REFERENTE AOS DADOS SOCIOECONOMICOS */
+
+.ps{
+    height: 500px;
+    width: auto;
+    background-color: var(--color1);
+    position: relative;
+    
+    
+}
+.outdoor{
+    height: 80%;
+    width:80%;
+    background-color: var(--color8);
+    position: absolute;
+    left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.26) 0.1em 0.1em 0.2em 0.2em;
+    background-image: url("reuniao.png");
+    background-repeat: no-repeat;
+    background-position: 20% 0;
+   
+    
+}
+.outdoor-text{
+    height: 55%;
+    width: 35%;
+    top: 15%;
+    right: 10%;
+    background-color: var(--color3);
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+@media screen and (max-width:768px){
+    .outdoor{
+        background-image: none;
+        top: 5%;
+    }
+    .outdoor-text{
+        height: 30vh;
+        width: 30vh;
+        font-size: 2vh;
+        text-align: justify;
+    }
+}
+
+/*REFERENTE AOS ESTUDOS E PESQUISAS*/
+
+.ep{
+    height: 1000px;
+    width: auto;
+    background-color: var(--color1);
+    
+    
+}
+.ep h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+   left: 35%;
+   font-size: 200%;
+   color: var(--color2);;
+}
+.ep h2{
+    position: absolute;
+    margin-top: 8%;
+    color: var(--color2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    left: 8%;
+}
+
+.painel{
+    position: relative;
+    height: 70%;
+    width: 90%;
+    background-color: var(--color8);
+    top: 17%;
+    left:5%;
+}
+.texto-painel{
+    position: absolute;
+    height: 80%;
+    width: 30%;
+   
+    left: 5%;
+    top: 10%;
+    
+    
+}
+.texto-painel h1{
+    position: absolute;
+    font-size:5vh;
+    left: 20%;
+    color: var(--color5);
+}
+.texto-painel p{
+    position: absolute;
+    text-decoration:underline;
+    text-align: justify;
+    top: 20%;
+    color: var(--color5);
+    font-weight: bolder;
+}
+@media screen and (max-width:768px){
+    
+    .ep h1{
+        font-size: 4vh;
+        left: 25%;
+    }
+    .ep h2{
+       opacity: 0;
+    }
+    .texto-painel{
+        top: 5vh;
+        height: 20vh;
+        width: 90%;
+        font-size: 2vh;
+        text-align: justify;
+    }
+    .texto-painel h1{
+        left: 1vh;
+        
+    }
+}
+/* REFERENTE AO FOLDER*/
+
+.sessao-folder{
+    height: 1000px;
+    width: auto;
+    background-color: var(--color1);
+    position: relative;
+}
+.folder{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+}
+
+.textofolder{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+    
+}
+.textofolder #button{
+    position: relative;
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+.folder2{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+    left: 25%;
+}
+
+.textofolder2{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+    
+}
+.textofolder2 #button{
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+.folder3{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+    left: 50%;
+}
+
+.textofolder3{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+    
+}
+.textofolder3 #button{
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder3 #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+.folder4{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+    left: 75%;
+}
+
+.textofolder4{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+
+    
+}
+.textofolder4 #button{
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder4 #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+.folder5{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+    top:45%;
+}
+
+.textofolder5{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+    
+}
+.textofolder5 #button{
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder5 #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+
+    
+
+.folder6{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+    left: 25%;
+    top: 45%;
+    
+}
+
+.textofolder6{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+    
+}
+.textofolder6 #button{
+    
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder6 #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+.folder7{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+    left: 50%;
+    top: 45%;
+    
+}
+
+.textofolder7{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+    
+}
+.textofolder7 #button{
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder7 #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+.folder8{
+    position: absolute;
+    height: 42.5%;
+    width: 24%;
+    background-color: rgb(238, 0, 0);
+    left: 75%;
+    top: 45%;
+    
+}
+
+.textofolder8{
+    position: relative;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    left:5%;
+    top: 8%;
+    
+}
+.textofolder8 #button{
+   
+    height: 15%;
+    width: 15%;
+   margin-top: 95%;
+   margin-left: 40%;
+   background-color: rgb(238, 0, 0);
+   border: none;
+   background-image: url("seta.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.textofolder8 #button:hover{
+    background-color:rgb(212, 0, 0) ;
+    
+}
+@media screen and (max-width:768px){
+    .sessao-folder{
+        height: 1000px;
+    }
+    
+    .folder{
+        height: 25vh;
+        width: 20vh;
+        
+    }
+    
+    .textofolder{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;
+      
+    }
+    .folder2{
+        height: 25vh;
+        width: 20vh;
+        left: 25vh;
+        
+    }
+    
+    .textofolder2{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder2 #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;
+      
+    }
+    .folder3{
+        height: 25vh;
+        width: 20vh;
+        left: 0vh;
+        top: 30vh;
+        
+    }
+    
+    .textofolder3{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder3 #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;
+      
+    }
+    .folder4{
+        height: 25vh;
+        width: 20vh;
+        left: 25vh;
+        top: 30vh;
+        
+    }
+    
+    .textofolder4{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder4 #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;}
+       
+    .folder5{
+        height: 25vh;
+        width: 20vh;
+        top: 60vh;
+        
+    }
+    
+    .textofolder5{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder5 #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;
+      
+    }
+    .folder6{
+        height: 25vh;
+        width: 20vh;
+        top: 60vh;
+        left: 25vh;
+        
+    }
+    
+    .textofolder6{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder6 #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;
+      
+    }
+    .folder7{
+        height: 25vh;
+        width: 20vh;
+        left: 0vh;
+        top: 90vh;
+        
+    }
+    
+    .textofolder7{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder7 #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;
+      
+    }
+    .folder8{
+        height: 25vh;
+        width: 20vh;
+        left: 25vh;
+        top: 90vh;
+        
+    }
+    
+    .textofolder8{
+      
+        height: 15vh;
+        width: 10vh;
+        left:5%;
+        top: 8%;
+        
+    }
+    .textofolder8 #button{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 150%;
+       margin-left: 70%;}  
+}
+
+
+/*Referente aos indices sebrae*/
+
+.is{
+  position:relative;
+  height: 800px;
+  width: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  background-color: var(--color1);
+}
+.is h1{
+    color: var(--color2);
+    font-size: 200%;
+}
+
+.foto1{
+    position: absolute;
+    height: 49%;
+    width: 42%;
+    background-color: rgb(255, 255, 255);
+    top: 15%;
+    left: 7%;
+    background-image: url("paisagem1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.26) 0.1em 0.1em 0.2em 0.2em;
+}
+.foto2{
+    position: absolute;
+    height: 49%;
+    width: 42%;
+    background-color: rgb(255, 255, 255);
+    top: 15%;
+    left: 52%;
+    background-image: url("paisagem2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.26) 0.1em 0.1em 0.2em 0.2em;
+}
+.texto1{
+    position: absolute;
+    height: 27%;
+    width: 42%;
+   color: var(--color2);
+    left:7%;
+    top: 70%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.texto2{
+    position: absolute;
+    height: 27%;
+    width: 42%;
+    color: var(--color2);
+    left:52%;
+    top: 70%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+@media screen and (max-width:768px){
+    .is{
+        height: 1200px
+    }
+    .is h1{
+        font-size: 200%;
+    }
+    .foto1{
+        height: 30vh;
+        width: 35vh;
+        left: 6vh;
+    }
+    .texto1{
+        height: 30%;
+        width: 75%;
+        top: 60vh;
+        left: 6vh;
+    }
+    .foto2{
+        height: 30vh;
+        width: 35vh;
+        top:60% ;
+        left: 6vh;
+    }
+    .texto2{
+        height: 30%;
+        width: 75%;
+        top: 85%;
+        left: 6vh;
+    }
+}
+
+footer{
+    height: 20vh;
+    width: auto;
+    background-color:rgb(0, 124, 207) ;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+    
+
+
+
+
+
+
+
+
+
+/*SOBRE O MODO NOTURNO*/
+
+:root{
+     --white:rgb(235, 235, 235);
+     --blue:rgb(0, 124, 207);
+     --color1: #f1f1f1;
+     --color2:rgb(0, 124, 207);
+     --color3:rgb(0, 36, 156);
+     --color4:rgb(0, 36, 156);
+     --color5:var(--white);
+     --color6:black;
+     --color7:rgb(0, 124, 207);
+     --color8:rgb(0, 36, 156);
+     
+    /*--white: aliceblue;
+    --dark: rgb(12, 12, 12);
+    --color1: aquamarine;
+    --color: #6e17b9;
+    --color2: aquamarine;
+    --color3:rgb(101, 212, 175);
+    --colorText:black;
+    --colorText2:gray;
+    --colorCardText:aliceblue;
+    --color4:rgb(216, 238, 238);*/
+    }
+
+    [data-theme="dark"]{
+        --white:rgb(31, 31, 31);
+        --blue:rgb(179, 255, 0);
+        --color1:rgb(10, 10, 10);
+       /* --color2:rgb(182, 23, 255);*/
+        --color3:rgb(24, 24, 24);
+        --color4:black;
+        --color5:rgb(182, 23, 255);
+        --color6:white;
+        --color7:rgb(113, 0, 165);
+        --color8:rgb(24, 24, 24);
+        /*--dark:white;
+        --colorText2:aquamarine;
+        --colorText: rgb(101, 212, 175);
+        --colorCardText:aquamarine;
+        --color4:black;
+        --color2:black;*/
+    }
+    
+    .dark-mode{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        color: var(--white);
+        padding: 2rem;
+        border-radius: 10px;
+      position: absolute;
+        left: 85%;
+        top: 2.5%;
+        z-index: 1;
+    }
+    .botao{
+        background-color: var(--color6);
+        padding: .4rem;
+        border: none;
+        border-radius: 50%;
+        width: 120%;
+        height: 120%;
+        cursor: pointer;
+         
+    }
+    .botao:hover{
+        background-color: var(--color6);
+        transition: 0.4s;
+    }
+    svg{
+        color: var(--color1);
+        width: 24px;
+        height: 24px;
+    }
+    
